@@ -91,7 +91,7 @@ sudo apt install -y python3 python3-pip python3-venv \
 
 ##  Автозапуск экспериментов
 
-
+```
 Доступные цели:
   setup      : Создание виртуального окружения и установка зависимостей
   run        : Запуск полного эксперимента (обучение + оценка + графики) (запуск run_all.py)
@@ -110,6 +110,7 @@ sudo apt install -y python3 python3-pip python3-venv \
 
 Системные требования (Ubuntu):
   sudo apt update && sudo apt install python3 python3-pip python3-venv make
+```
 
 |-----------------------------------------------------------------------------------------|
 
@@ -153,7 +154,7 @@ sudo apt install -y python3 python3-pip python3-venv \
 ||-----------------------------------------------------------------------------------------||
 
 
-```
+
 
 Скрипт `run_all.py` автоматически:
 
@@ -210,5 +211,4 @@ sudo apt install -y python3 python3-pip python3-venv \
 
 
 ||-----------------------------------------------------------------------------------------||
-# vc-dimension
 # vc-dimension
