@@ -1,0 +1,42 @@
+# =====================================================
+# Конфигурация эксперимента
+# =====================================================
+
+# Воспроизводимость
+seed: 42
+
+# Dataset
+dataset:
+  name: MNIST
+  batch_size: 128
+  num_workers: 2
+
+# Обучение
+training:
+  epochs: 10
+  learning_rate: 0.001
+  optimizer: adam
+  weight_decay: 0.0
+
+# Модели
+models:
+  model_a:
+    type: mlp
+    hidden_dim: 256
+    depth: 3
+
+  model_b:
+    type: mlp
+    hidden_dim: 256
+    depth: 5
+
+# Вычисление норм
+complexity:
+  spectral_iters: 20
+
+# Пути (относительно корня проекта)
+paths:
+  results: results
+  figures: figures
+
+
