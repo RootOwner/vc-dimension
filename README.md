@@ -41,9 +41,7 @@ nir
 ├── README.md
 ├── references.bib
 ├── requirements.txt       # Python-зависимости
-├── results/               # Результаты экспериментов
-├── sections
-└── tables
+└── results/               # Результаты экспериментов
 
 
 
