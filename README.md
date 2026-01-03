@@ -41,10 +41,10 @@ nir
 ├── README.md
 ├── references.bib
 ├── requirements.txt       # Python-зависимости
-└── results/               # Результаты экспериментов
-
-
-
+├── sections
+├── results/               # Результаты экспериментов
+├── signature_student.jpg  # Подпись научного руководителя
+└── signature_supervisor.jpg  # Подпись студента
 
 ````
 
