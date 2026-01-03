@@ -33,18 +33,31 @@ nir
 │   ├── run_all.py         # Главный автозапуск экспериментов
 │   ├── train.py           # Обучение моделей
 │   └── utils.py
-├── figures
-│   ├── accuracy_vs_psi.pdf
-│   └── margin_vs_psi.pdf
-├── main.tex
+├── figures                # Генерированные графики
+│   ├── accuracy_vs_psi.pdf  # График - зависимость Accuracy от $\hat{\Psi}(\theta)$  
+│   └── margin_vs_psi.pdf  # График - зависимость margin от $\hat{\Psi}(\theta)$
+├── main.tex               # Иходный LaTeX код работы
+├── main.pdf               # Основная работа
 ├── Makefile               # Автосборка PDF
-├── README.md
-├── references.bib
+├── README.md              # Информационный файл
+├── references.bib         # Библиографические записи
 ├── requirements.txt       # Python-зависимости
-├── sections
+├── sections/
 ├── results/               # Результаты экспериментов
 ├── signature_student.jpg  # Подпись научного руководителя
 └── signature_supervisor.jpg  # Подпись студента
+
+
+
+
+
+
+
+
+
+
+
+
 
 ````
 
