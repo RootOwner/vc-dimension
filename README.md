@@ -119,7 +119,7 @@ sudo apt install -y python3 python3-pip python3-venv \
   `requirements.txt`. Выполняется один раз перед запуском экспериментов.
 
 - Объязательно нужно активировать вирутальное окружение перед запуском `make run`
-  Для запуска виртуального окружение: source venv/bin/activate
+  Для запуска виртуального окружение: `source venv/bin/activate`
 
 - `make run` 
   Запускает полный эксперимент через `run_all.py`: обучение моделей, вычисление
